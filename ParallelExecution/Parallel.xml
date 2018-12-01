@@ -1,0 +1,17 @@
+<suite name="parallel Execution" parallel="tests">
+	<test name="chromedriver Results">
+		<classes>
+			<parameter name="Browser" value="Chrome"></parameter>
+			<class name="com.ParallelExecution.ParallelTest">
+			</class>
+		</classes>
+	</test>
+	<test name="FireFox Results">
+		<classes>
+			<parameter name="Browser" value="FireFox"></parameter>
+			<class name="com.ParallelExecution.ParallelTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

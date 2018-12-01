@@ -1,0 +1,30 @@
+<suite name="Batch Execution">
+	<test name="ParallelTest Results">
+		<classes>
+			<class name="com.ParallelExecution.ParallelTest">
+			</class>
+		</classes>
+	</test>
+	<test name="FirstTest Results">
+		<classes>
+			<class name="com.Example.FirstTest">
+			</class>
+		</classes>
+	</test>
+	<test name="GetOptionDemo Results">
+	     <classes>
+			<class name="com.Example.GetOptionDemo">
+			<methods>
+			<include name="test"></include>
+			</methods>
+			</class>
+		</classes>
+		
+	</test>
+	<test name="GetTextDemo Results">
+		<classes>
+			<class name="com.Example.GetTextDemo">
+			</class>
+		</classes>
+	</test>
+</suite>
